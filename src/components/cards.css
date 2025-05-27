@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+}
+
+.card__title {
+  border: 1px solid #f6f7fd;
+  background-color: #1f9dab;
+  color: #f6f7fd;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 8% 1%;
+}
+
+.card__subtitle {
+  border: 1px solid #f6f7fd;
+  background-color: #2bc2d5;
+  color: #f6f7fd;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 8% 1%;
+}
+
+.card__paragraph {
+  border: 1px solid #f6f7fd;
+  background-color: #f8f8f8;
+  color: #949494;
+  font-size: 1rem;
+  margin: 0;
+  padding: 8% 1%;
+}
+
+.card__paragraph_second {
+  background-color: #eeeeee;
+}
+
+

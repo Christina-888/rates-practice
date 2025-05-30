@@ -9,9 +9,12 @@
   width: 18%;
 }
 
+.card:nth-child(3):hover {
+  transform: scale(1.1);
+}
+
 .card__title {
   border: 1px solid #f6f7fd;
-  background-color: #1f9dab;
   color: #f6f7fd;
   font-size: 1.1rem;
   margin: 0;
@@ -20,11 +23,10 @@
 
 .card__subtitle {
   border: 1px solid #f6f7fd;
-  background-color: #2bc2d5;
   color: #f6f7fd;
   font-size: 1.2rem;
   margin: 0;
-  padding: 8% 1%;
+  padding: 12% 1%;
 }
 
 .card__paragraph {
@@ -38,6 +40,42 @@
 
 .card__paragraph_second {
   background-color: #eeeeee;
+}
+
+.color-darkblue {
+  background-color: #1f9dab;
+}
+
+.color-blue {
+  background-color: #2bc2d5;
+}
+
+.color-darkgreen {
+  background-color: #1e856e;
+}
+
+.color-green {
+  background-color: #23af8c;
+}
+
+.color-darkred {
+  background-color: #c6534e;
+}
+
+.color-red {
+  background-color: #f36b5f;
+}
+
+.color-black {
+  background-color: #2a3137;
+}
+
+.color-lightblack {
+  background-color: #363847;
+}
+
+.subtitle-number {
+  font-size: 2.5rem;
 }
 
 

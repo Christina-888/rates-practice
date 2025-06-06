@@ -1,8 +1,17 @@
-import styles from './cards.module.css'
+import { useState } from 'react';
+import styles from './cards.module.css';
 
 const Cards = ({ title, subtitle, speed, condition, titleColor, subtitleColor }) => {
+
+  const [selected, setSelected] = useState(false);
+
+  const handleSelectedState = () => {
+    setSelected(!selected);
+  }
+
   return (
-    <div className={styles.card}>
+    <div className={`${styles.card} ${selected ? styles.selected : ''}`} 
+      onClick={handleSelectedState}>
       <h1 className={`${styles.card__title} ${styles[titleColor]}`}>{title}</h1>
       <h2 className={`${styles.card__subtitle} ${styles[subtitleColor]}`}>{subtitle}</h2>
       <p className={styles.card__paragraph}>{speed}</p>

@@ -9,9 +9,14 @@
   width: 18%;
 }
 
-.card:nth-child(3):hover {
+.selected {
   transform: scale(1.1);
+  cursor: pointer;
 }
+
+.card:hover {
+  cursor: pointer;
+} 
 
 .card__title {
   border: 1px solid #f6f7fd;
